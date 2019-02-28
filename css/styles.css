@@ -17,3 +17,11 @@
 .text-indent {
   text-indent: 25px;
 }
+
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
