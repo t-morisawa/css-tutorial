@@ -45,7 +45,11 @@
         <div class="box-center">
             <p><b>Note: </b>Using margin:auto will not work in IE8, unless a !DOCTYPE is declared.</p>
         </div>
+        <div class="rotate-3d-first-parent">
+            <div class="rotate-3d-first">
+                transform: rotate3d(1, -1, 0, 30deg); /* Standard syntax */<br>
+                perspective: 300px; /* rotateしている要素の親要素につけなければならない */
+            </div>
+        </div>
     </body>
 </html>
-
-
