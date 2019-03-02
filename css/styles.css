@@ -45,3 +45,33 @@ div.sticky {
 .rotate-3d-first-parent {
   perspective: 300px;
 }
+
+.onmouse-bigger {
+  width: 100px;
+  height: 100px;
+  background: Orange;
+  -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 4s;
+}
+
+.onmouse-bigger:hover {
+  width: 300px;
+  height: 300px;
+}
+
+.css-animation-first {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: colors;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes colors {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
