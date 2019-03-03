@@ -99,3 +99,15 @@ div.sticky {
   padding: 20px 0;
   font-size: 30px;
 }
+
+.resize-first {
+  border: 2px solid;
+  padding: 20px; 
+  width: 300px;
+  resize: both;
+  overflow: auto;
+}
+
+.target-first a[target] {
+  background-color: yellow;
+}
